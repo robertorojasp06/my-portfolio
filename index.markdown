@@ -12,6 +12,14 @@ title: Home
 
 ### Nuclei Segmentation
 
+<figure>
+  <img src="images/CTC_challenge_volume_sequence_01.png" alt="Nuclei segmentation" style="max-width:100%; height:auto;">
+  <figcaption>
+    <b>Nuclei instance segmentation on microscopy images of Drosophila embryo.</b> Each row corresponds to a time point frame of a 3D movie of a Drosophila embryo, showing the MIP projection (left) and the corresponding segmentation (right). Each color represents a different cell nuclei. Segmentations where obtained using a methodology based on the U-Net Deep Learning model (<a href="https://doi.org/10.1109/CAI54212.2023.00137">Rojas et al., 2023</a>)
+  </figcaption>
+</figure>
+
+
 ### Tracking of Human Sperm Samples
 
 ### WSI analysis
@@ -27,12 +35,12 @@ title: Home
   </figcaption>
 </figure>
 
-__Evolution of the MedSAM performance with annotation cycles__. (a) Distribution of Dice scores in terms of lesion size, obtained for the retrained MedSAM after each annotation cycle. Each point represents a bounding box in the testing set. (b) Probability distribution of the Dice after each annotation cycle, estimated using KDE with Gaussian kernels.
-
-![MedSAM output examples](images/medsam_outputs.svg)
-
-__Comparison between predicted (orange) and human-expert (yellow) segmentations.__ Fine-tuned MedSAM model receives an image slice and a bounding box (cyan) to produce an output segmentation mask. Similarity betwenn predicted and human-expert segmentations are measured using the Dice score (DSC). From top to bottom, lung tumors, liver tumors, and adenopathies are shown.
-
+<figure>
+  <img src="images/medsam_outputs.svg" alt="MedSAM output segmentations" style="max-width:100%; height:auto;">
+  <figcaption>
+    <b>Comparison between predicted (orange) and human-expert (yellow) segmentations.</b> Fine-tuned MedSAM model receives an image slice and a bounding box (cyan) to produce an output segmentation mask. Similarity betwenn predicted and human-expert segmentations are measured using the Dice score (DSC). From top to bottom, lung tumors, liver tumors, and adenopathies are shown.
+  </figcaption>
+</figure>
 
 ## Other stuff
 
