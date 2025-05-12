@@ -27,7 +27,7 @@ title: Home
 ### Cancer Lesion Segmentation on CT images
 
 <figure style="text-align: center;">
-  <video src="images/hitl_medsam_evolution.mp4" width="600" controls loop autoplay muted>
+  <video src="images/hitl-medsam-evolution/hitl_medsam_evolution.mp4" width="600" controls loop autoplay muted>
     Your browser does not support the video tag.
   </video>
   <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
@@ -36,7 +36,7 @@ title: Home
 </figure>
 
 <figure style="text-align: center;">
-  <img src="images/medsam_outputs.svg" alt="MedSAM output segmentations" style="width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto">
+ <img src="images/hitl-medsam-evolution/medsam_outputs.svg" alt="MedSAM output segmentations" style="width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto;">
   <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
     <b>Comparison between predicted (orange) and human-expert (yellow) segmentations.</b> Fine-tuned MedSAM model receives an image slice and a bounding box (cyan) to produce an output segmentation mask. Similarity betwenn predicted and human-expert segmentations are measured using the Dice score (DSC). From top to bottom, lung tumors, liver tumors, and adenopathies are shown.
   </figcaption>
