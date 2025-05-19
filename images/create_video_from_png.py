@@ -6,7 +6,8 @@ from pathlib import Path
 
 def main():
     parser = argparse.ArgumentParser(
-        description="""Create a mp4 video from a sequence of png images."""
+        description="""Create a mp4 video from a sequence of png images.""",
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument(
         'path_to_images',

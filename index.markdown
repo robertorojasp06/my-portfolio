@@ -20,7 +20,17 @@ title: Home
 </figure>
 
 
-### Tracking of Human Sperm Samples
+### Tracking of Sperm Samples
+
+<figure style="text-align: center;">
+  <video src="images/pymotility/fish/results/fish_video.mp4" width="600" controls loop autoplay muted>
+    Your browser does not support the video tag.
+  </video>
+  <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
+    <b>Tracking of fish sperm samples</b>. Sperm heads are segmented using the AI U-net architecture and Sperm tracks are constructed according to the minimum distance criteria between heads in time. Tracks are then classified according to its speed into Progressive (green, VCL >= 26.4 um/s) and Immotile (red, VCL < 26.4 um/s, VSL <= 26.4 um/s) classes. 
+  </figcaption>
+</figure>
+
 
 ### WSI analysis
 
@@ -46,7 +56,7 @@ title: Home
 <figure style="text-align: center;">
   <img src="images/ct-tumor-segmentation/nnunet_segmentations.png" alt="Nuclei segmentation" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
   <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
-    <b>Lung and Liver tumors identified using AI.</b> Segmentations were obtained using the nnUNet model fine-tuned on CT images from the Clinical Hospital of the University of Chile (HCUCH). Tumors are overlaid in yellow for lung (a,d) and liver (d,c,e,f). 
+    <b>Lung and Liver tumors identified using AI.</b> Segmentations were obtained using the nnUNet model fine-tuned on CT images from the Clinical Hospital of the University of Chile (HCUCH). Tumors are overlaid in yellow for lung (a,d) and liver (b,c,e,f). 
   </figcaption>
 </figure>
 
