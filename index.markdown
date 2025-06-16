@@ -61,9 +61,43 @@ title: Home
 </figure>
 
 
-## Other stuff
+## Other projects
 
-## Automation of Parquemet Requests
+### Automation of Parquemet Requests
 
-## Text analysis from Tweets (Use Case: Politics!)
+<figure style="text-align: center;">
+  <img src="images/parquemet-requests/demo.gif" alt="Parquemet requests" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
+  <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
+    <b>Automation of Parquemet request to apply for the use of soccer fields.</b> This script is scheduled to run every monday at 7 AM to make the request automatically. Selenium was used to automate the use of the web browser.
+  </figcaption>
+</figure>
 
+### Text analysis from Political Tweets
+
+<figure style="text-align: center;">
+  <img src="images/twitter-analysis/wordclouds_boric_kast.png" alt="Twitter analysis" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
+  <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
+    <b>Wordcloud analysis.</b> Wordclouds computed from the 3200 most recent tweets from the accounts of <a href="https://es.wikipedia.org/wiki/Gabriel_Boric">Gabriel Boric</a> and <a href="https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Kast">Jose Antonio Kast</a>  (obtained on 2022-08-15).
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="images/twitter-analysis/tweets_count_boric_kast.png" alt="Twitter analysis" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
+  <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
+    <b>Timeseries analysis.</b> Timeseries of tweets count, showing the number of tweets posted each day from the accounts of Gabriel Boric and Jose Antonio Kast (obtained on 2022-10-05).
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="images/twitter-analysis/sentiment_distributions.png" alt="Twitter analysis" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
+  <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
+    <b>Sentiment analysis.</b> Distribution of sentiment scores (between 0 and 1) obtained for each tweet using the <a href="https://github.com/cjhutto/vaderSentiment">VADER</a> algorithm (obtained on 2022-10-05). As this tool only supports english text, we use the <a href="https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Kast">googletrans</a> python library (makes requests to the Google Translate API) to translate tweets from spanish to english.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
+  <img src="images/twitter-analysis/tweets_count_izkia.png" alt="Twitter analysis" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
+  <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
+    <b>Timeseries analysis.</b> Timeseries of tweets count, showing the number of tweets posted each day from the accounts of <a href="https://es.wikipedia.org/wiki/Izkia_Siches">Izkia Siches</a> (obtained on 2022-10-05).
+  </figcaption>
+</figure>
