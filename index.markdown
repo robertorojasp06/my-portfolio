@@ -23,7 +23,7 @@ title: Home
 ### Tracking of Sperm Samples
 
 <figure style="text-align: center;">
-  <video src="images/pymotility/fish/results/fish_video.mp4" width="600" controls loop autoplay muted>
+  <video src="images/pymotility/fish/results/fish_video.mp4" style="max-width: 100%; height: auto;" controls loop autoplay muted>
     Your browser does not support the video tag.
   </video>
   <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
@@ -37,7 +37,7 @@ title: Home
 ### Cancer Lesion Segmentation on CT images
 
 <figure style="text-align: center;">
-  <video src="images/hitl-medsam-evolution/hitl_medsam_evolution.mp4" width="600" controls loop autoplay muted>
+  <video src="images/hitl-medsam-evolution/hitl_medsam_evolution.mp4" style="max-width: 100%; height: auto;" controls loop autoplay muted>
     Your browser does not support the video tag.
   </video>
   <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
