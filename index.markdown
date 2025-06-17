@@ -6,7 +6,7 @@ layout: home
 title: Home
 ---
 
-# Nuclei Segmentation
+## Nuclei Segmentation
 
 <figure>
   <img src="images/ctc-nuclei-segmentation/CTC_challenge_volume_sequence_01_short.png" alt="Nuclei segmentation" style="max-width:100%; height:auto;">
@@ -16,7 +16,7 @@ title: Home
 </figure>
 
 
-# Tracking of Sperm Samples
+## Tracking of Sperm Samples
 
 <figure style="text-align: center;">
   <video src="images/pymotility/fish/results/fish_video.mp4" style="max-width: 100%; height: auto;" controls loop autoplay muted>
@@ -28,7 +28,7 @@ title: Home
 </figure>
 
 
-# Cancer Tissue Classification from Whole Slide Image (WSI)
+## Cancer Tissue Classification from Whole Slide Image (WSI)
 
 <figure style="text-align: center;">
   <img src="images/wsi/WSI_artifacts-WSI.png" alt="Nuclei segmentation" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
@@ -55,7 +55,7 @@ title: Home
 </figure>
 
 
-# Cancer Lesion Segmentation on CT images
+## Cancer Lesion Segmentation on CT images
 
 <figure style="text-align: center;">
   <video src="images/hitl-medsam-evolution/hitl_medsam_evolution.mp4" style="max-width: 100%; height: auto;" controls loop autoplay muted>
@@ -82,7 +82,7 @@ title: Home
 </figure>
 
 
-# Automation of Parquemet Requests
+## Automation of Parquemet Requests
 
 <figure style="text-align: center;">
   <img src="images/parquemet-requests/demo.gif" alt="Parquemet requests" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
@@ -91,7 +91,7 @@ title: Home
   </figcaption>
 </figure>
 
-# Text analysis from Political Tweets
+## Text analysis from Political Tweets
 
 <figure style="text-align: center;">
   <img src="images/twitter-analysis/wordclouds_boric_kast.png" alt="Twitter analysis" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
@@ -103,7 +103,7 @@ title: Home
 <figure style="text-align: center;">
   <img src="images/twitter-analysis/tweets_count_boric_kast.png" alt="Twitter analysis" style="width: 600px; max-width:100%; height:auto; display: block; margin: 0 auto;">
   <figcaption style="text-align: justify; max-width: 800px; margin: 0 auto;">
-    <b>Timeseries analysis.</b> Timeseries of tweets count, showing the number of tweets posted each day from the accounts of Gabriel Boric and Jose Antonio Kast (obtained on 2022-10-05).
+    <b>Time-series analysis.</b> Timeseries of tweets count, showing the number of tweets posted each day from the accounts of Gabriel Boric and Jose Antonio Kast (obtained on 2022-10-05).
   </figcaption>
 </figure>
 
