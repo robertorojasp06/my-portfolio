@@ -5,6 +5,7 @@
 layout: home
 title: Home
 ---
+# Home
 
 ## Nuclei Segmentation
 
